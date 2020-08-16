@@ -1,0 +1,23 @@
+{
+    "name": "Innovarte",
+    "short_name": "Innovarte",
+    "description": "Bienvenido a Semaweek, la app que te ayuda a planificar tu tiempo y tu vida.",
+    "background_color": "white",
+    "theme_color": "white",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "/",
+    "lang": "es-MX",
+    "icons": [
+        {
+          "src": "/img/favicon.ico",
+          "sizes": "64x64 32x32 24x24 16x16",
+          "type": "image/x-icon"
+        },
+        {
+            "src":"/img/logoapp.jpeg",
+            "sizes":"336x336",
+            "type":"image/jpeg"
+        }
+    ]
+}
