@@ -8,7 +8,7 @@ var ubicacionVieja = 0
 
 window.addEventListener("scroll", function(){
     let ubicacionNueva = window.pageYOffset
-    if(ubicacionNueva >= ubicacionVieja && ubicacionNUeva != 0){
+    if(ubicacionNueva >= ubicacionVieja && ubicacionNueva != 0){
         document.getElementsByTagName("nav")[0].style.top = "-100px"
         ubicacionVieja = window.pageYOffset
     }
